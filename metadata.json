@@ -1,0 +1,6 @@
+{
+  "name": "Game Cờ Caro Thông Minh",
+  "description": "Game Cờ Caro Thông Minh chuẩn luật với AI đa cấp độ, 2 người chơi, giải thế cờ, phân tích nước đi và lưu lịch sử offline.",
+  "requestFramePermissions": [],
+  "majorCapabilities": ["MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"]
+}

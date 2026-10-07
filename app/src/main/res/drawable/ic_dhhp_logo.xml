@@ -1,0 +1,72 @@
+<?xml version="1.0" encoding="utf-8"?>
+<vector xmlns:android="http://schemas.android.com/apk/res/android"
+    android:width="108dp"
+    android:height="108dp"
+    android:viewportWidth="108"
+    android:viewportHeight="108">
+
+    <!-- Outer Gear Blue Ring (Circle center 54, 54, radius 48) -->
+    <path
+        android:fillColor="#0288D1"
+        android:pathData="M54,6 A48,48 0 1,1 53.99,6 Z" />
+
+    <!-- 24 Small Cog teeth around perimeter -->
+    <path
+        android:fillColor="#0288D1"
+        android:pathData="M54,2 A3,3 0 1,1 54,8 A3,3 0 1,1 54,2 M66,5 A3,3 0 1,1 66,11 A3,3 0 1,1 66,5 M78,11 A3,3 0 1,1 78,17 A3,3 0 1,1 78,11 M88,20 A3,3 0 1,1 88,26 A3,3 0 1,1 88,20 M96,32 A3,3 0 1,1 96,38 A3,3 0 1,1 96,32 M100,45 A3,3 0 1,1 100,51 A3,3 0 1,1 100,45 M100,63 A3,3 0 1,1 100,69 A3,3 0 1,1 100,63 M96,76 A3,3 0 1,1 96,82 A3,3 0 1,1 96,76 M88,88 A3,3 0 1,1 88,94 A3,3 0 1,1 88,88 M78,97 A3,3 0 1,1 78,103 A3,3 0 1,1 78,97 M66,103 A3,3 0 1,1 66,109 A3,3 0 1,1 66,103 M54,104 A3,3 0 1,1 54,110 A3,3 0 1,1 54,104 M42,103 A3,3 0 1,1 42,109 A3,3 0 1,1 42,103 M30,97 A3,3 0 1,1 30,103 A3,3 0 1,1 30,97 M20,88 A3,3 0 1,1 20,94 A3,3 0 1,1 20,88 M12,76 A3,3 0 1,1 12,82 A3,3 0 1,1 12,76 M8,63 A3,3 0 1,1 8,69 A3,3 0 1,1 8,63 M8,45 A3,3 0 1,1 8,51 A3,3 0 1,1 8,45 M12,32 A3,3 0 1,1 12,38 A3,3 0 1,1 12,32 M20,20 A3,3 0 1,1 20,26 A3,3 0 1,1 20,20 M30,11 A3,3 0 1,1 30,17 A3,3 0 1,1 30,11 M42,5 A3,3 0 1,1 42,11 A3,3 0 1,1 42,5" />
+
+    <!-- White Middle Ring (Radius 43) -->
+    <path
+        android:fillColor="#FFFFFF"
+        android:pathData="M54,11 A43,43 0 1,1 53.99,11 Z" />
+
+    <!-- Inner Blue Center Disc (Radius 31) -->
+    <path
+        android:fillColor="#0288D1"
+        android:pathData="M54,23 A31,31 0 1,1 53.99,23 Z" />
+
+    <!-- Top Text Arc: ĐẠI HỌC HẢI PHÒNG (Stylized Red/Orange Crown Arc) -->
+    <path
+        android:strokeColor="#D84315"
+        android:strokeWidth="3.2"
+        android:strokeLineCap="round"
+        android:pathData="M24,29 C32,18 76,18 84,29" />
+
+    <!-- Bottom Text Arc: HAIPHONG UNIVERSITY (Stylized Blue Arc) -->
+    <path
+        android:strokeColor="#0277BD"
+        android:strokeWidth="2.4"
+        android:strokeLineCap="round"
+        android:pathData="M26,79 C34,90 74,90 82,79" />
+
+    <!-- Base Stylized White Ship / Open Book Swooshes -->
+    <!-- Lower Swoosh -->
+    <path
+        android:fillColor="#FFFFFF"
+        android:pathData="M35,74 Q54,80 73,74 Q54,77 35,74 Z" />
+    <!-- Upper Swoosh -->
+    <path
+        android:fillColor="#FFFFFF"
+        android:pathData="M38,70 Q54,76 70,70 Q54,73 38,70 Z" />
+
+    <!-- Yellow / Amber Stylized Monogram "H" -->
+    <!-- Slanted Left Pillar of H -->
+    <path
+        android:fillColor="#FFB300"
+        android:pathData="M43,68 L47,38 L51,38 L47,68 Z" />
+    <!-- Horizontal Crossbar & Flame Wing -->
+    <path
+        android:fillColor="#FFB300"
+        android:pathData="M46,52 L62,52 L60,57 L44,57 Z" />
+    <path
+        android:fillColor="#FFB300"
+        android:pathData="M52,51 L67,51 Q73,51 71,57 Q68,62 60,62 L56,62 Z" />
+    <path
+        android:fillColor="#FFB300"
+        android:pathData="M54,59 Q61,59 68,61 Q72,63 70,66 Q67,69 60,69 L48,69 Z" />
+
+    <!-- Red Stylized Monogram "P" Intersecting on H -->
+    <path
+        android:fillColor="#E53935"
+        android:pathData="M44,45 L62,45 Q70,45 70,51 Q70,57 62,57 L49,57 L50,53 L61,53 Q65,53 65,51 Q65,49 61,49 L46,49 Z" />
+</vector>
